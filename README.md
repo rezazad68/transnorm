@@ -33,10 +33,10 @@ Follow step 3 and 4 for model traing and performance estimation. For ph2 dataset
 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/transnorm/blob/main/Figures/model.pdf)
+![Diagram of the proposed method](https://github.com/rezazad68/transnorm/blob/main/Figures/model-1.png)
 
 ### Perceptual visualization of the proposed two-level attention module.
-![Diagram of the proposed method](https://github.com/rezazad68/transnorm/blob/main/Figures/attention_model.pdf)
+![Diagram of the proposed method](https://github.com/rezazad68/transnorm/blob/main/Figures/attention_model-1.png)
 
 
 ## Results
