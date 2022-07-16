@@ -69,11 +69,11 @@ Azad et. all [Proposed TransNorm]()	  |**0.8933** 	| **0.8532**	|0.9859	  |**0.9
 ### Model weights
 You can download the learned weights for each dataset in the following table. 
 
-Dataset |Learned weights
+Dataset |Learned weights (Will be added)
 ------------ | -------------
-[ISIC 2018]() |[TMUnet](https://drive.google.com/file/d/1EU4stQUtUt6bcSoWswBYpfTZd53sVAJy/view?usp=sharing)
-[ISIC 2017]() |[TMUnet](https://drive.google.com/file/d/1gEb8juWB2JjxAws91D3S0wxnrVwuMRZo/view?usp=sharing)
-[Ph2]() | [TMUnet](https://drive.google.com/file/d/1soZ6UYhZk7r5-klflJHZxtbdH6pKi7t6/view?usp=sharing)
+[ISIC 2018]() |[TransNorm]()
+[ISIC 2017]() |[TransNorm]()
+[Ph2]() | [TransNorm]()
 
 
 
