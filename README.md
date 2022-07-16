@@ -33,16 +33,16 @@ Follow step 3 and 4 for model traing and performance estimation. For ph2 dataset
 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/TMUnet/blob/main/Figures/Method%20(Main).png)
+![Diagram of the proposed method](https://github.com/rezazad68/transnorm/blob/main/Figures/model.pdf)
 
-### Perceptual visualization of the proposed Contextual Attention module.
-![Diagram of the proposed method](https://github.com/rezazad68/TMUnet/blob/main/Figures/Method%20(Submodule).png)
+### Perceptual visualization of the proposed two-level attention module.
+![Diagram of the proposed method](https://github.com/rezazad68/transnorm/blob/main/Figures/attention_model.pdf)
 
 
 ## Results
-For evaluating the performance of the proposed method, Two challenging task in medical image segmentaion has been considered. In bellow, results of the proposed approach illustrated.
+In bellow, results of the proposed approach illustrated.
 </br>
-#### Task 1: SKin Lesion Segmentation
+#### SKin Lesion Segmentation
 
 
 #### Performance Comparision on SKin Lesion Segmentation
@@ -57,35 +57,14 @@ Chen et. all [TransU-net](https://arxiv.org/abs/2102.04306)   |0.8123  |0.8263  
 Asadi et. all [MCGU-Net](https://arxiv.org/abs/2003.05056)   |0.8927	  |	0.8502      |**0.9855**	  |0.9570	
 Valanarasu et. all [MedT](https://arxiv.org/abs/2102.10662)   |0.8037	  |0.8064       |0.9546	  |0.9090
 Wu et. all [FAT-Net](https://www.sciencedirect.com/science/article/abs/pii/S1361841521003728)   |0.8500	  |0.8392  |0.9725	  |0.9326
-Azad et. all [Proposed TMUnet](https://arxiv.org/abs/2203.01932)	  |**0.9164** 	| **0.9128**	|0.9789	  |**0.9660**
-### For more results on ISIC 2018 and PH2 dataset, please refer to [the paper](https://arxiv.org/abs/2203.01932)
+Azad et. all [Proposed TransNorm]()	  |**0.8933** 	| **0.8532**	|0.9859	  |**0.9582**
+### For more results on ISIC 2018 and PH2 dataset, please refer to [the paper]()
 
 
 #### SKin Lesion Segmentation segmentation result on test data
 
-![SKin Lesion Segmentation  result](https://github.com/rezazad68/TMUnet/blob/main/Figures/Skin%20lesion_segmentation.png)
-(a) Input images. (b) Ground truth. (c) [U-net](https://arxiv.org/abs/2102.10662). (d) [Gated Axial-Attention](https://arxiv.org/abs/2102.10662). (e) Proposed method without a contextual attention module and (f) Proposed method.
+![SKin Lesion Segmentation  result](https://github.com/rezazad68/transnorm/blob/main/Figures/isic2018.png)
 
-
-## Multiple Myeloma Cell Segmentation
-
-#### Performance Evalution on the Multiple Myeloma Cell Segmentation task
-
-Methods | mIOU
------------- | -------------
-[Frequency recalibration U-Net](https://openaccess.thecvf.com/content/ICCV2021W/CVAMD/papers/Azad_Deep_Frequency_Re-Calibration_U-Net_for_Medical_Image_Segmentation_ICCVW_2021_paper.pdf)	 |0.9392 
-[XLAB Insights](https://arxiv.org/abs/2105.06238)	|0.9360
-[DSC-IITISM](https://arxiv.org/abs/2105.06238)	|0.9356	  
-[Multi-scale attention deeplabv3+](https://arxiv.org/abs/2105.06238)	 |0.9065	  
-[U-Net](https://arxiv.org/abs/1505.04597)	  |0.7665
-[Baseline](https://arxiv.org/abs/2203.01932)	  |0.9172
-[Proposed](https://arxiv.org/abs/2203.01932)	  |**0.9395**
-
-
-
-#### Multiple Myeloma Cell Segmentation results
-
-![Multiple Myeloma Cell Segmentation result](https://github.com/rezazad68/TMUnet/blob/main/Figures/Cell_segmentation.png)
 
 ### Model weights
 You can download the learned weights for each dataset in the following table. 
