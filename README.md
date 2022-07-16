@@ -1,25 +1,14 @@
-# [TransNorm: Transformer Provides a Strong Spatial Normalization Mechanism for a Deep Segmentation Model](https://arxiv.org/abs/2203.01932)
+# [TransNorm: Transformer Provides a Strong Spatial Normalization Mechanism for a Deep Segmentation Model]()
 
-Contexual attention network for medical image segmentation with state of the art results on skin lesion segmentation, multiple myeloma cell segmentation. This method incorpotrates the transformer module into a U-Net structure so as to concomitantly capture long-range dependency along with resplendent local informations.
-If this code helps with your research please consider citing the following paper:
-</br>
-> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?user=mir8D5UAAAAJ&hl=en&oi=sra), [Yuli Wu](https://scholar.google.com/citations?user=qlun0AgAAAAJ) and [Dorit Merhof
-](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Contextual Attention Network: Transformer Meets U-Net", download [link](https://arxiv.org/abs/2203.01932).
-
-```python
-@article{reza2022contextual,
-  title={Contextual Attention Network: Transformer Meets U-Net},
-  author={Reza, Azad and Moein, Heidari and Yuli, Wu and Dorit, Merhof},
-  journal={arXiv preprint arXiv:2203.01932},
-  year={2022}
-}
-
-```
+## Introduction
+We argue that combining the two descriptors, namely, CNN and Transformer might provide an efficient feature representation, which is at the heart of our research in this paper. Majority of existing CNN-Transformer based networks suffer from a weak construction on
+the skip connection section. To this end, we design a two-level attention mechanism based on the Transformer module to adaptively recalibrate the feature
+combination on the skip connection path. 
 
 #### Please consider starring us, if you found it useful. Thanks
 
 ## Updates
-- February 27, 2022: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 2017](https://challenge.isic-archive.com/landing/2017/), [SKin Lesion Segmentation on ISIC 2018](https://challenge2018.isic-archive.com/), [SKin Lesion Segmentation on PH2](https://www.fc.up.pt/addi/ph2%20database.html) and [Multiple Myeloma Cell Segmentation (SegPC 2021)](https://www.kaggle.com/sbilab/segpc2021dataset) dataset added.)
+- June 16, 2022: First release (Complete implemenation for [SKin Lesion Segmentation on ISIC 2017](https://challenge.isic-archive.com/landing/2017/), [SKin Lesion Segmentation on ISIC 2018](https://challenge2018.isic-archive.com/) and [SKin Lesion Segmentation on PH2](https://www.fc.up.pt/addi/ph2%20database.html) dataset added.)
 
 This code has been implemented in python language using Pytorch library and tested in ubuntu OS, though should be compatible with related environment. following Environement and Library needed to run the code:
 
