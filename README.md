@@ -1,11 +1,11 @@
-# [TransNorm: Transformer Provides a Strong Spatial Normalization Mechanism for a Deep Segmentation Model]()
+# [TransNorm: Transformer Provides a Strong Spatial Normalization Mechanism for a Deep Segmentation Model](https://arxiv.org/abs/2207.13415)
 
 The official code for "_TransNorm: Transformer Provides a Strong Spatial Normalization Mechanism for a Deep Segmentation Model_".
 
 
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate),
 [Mohammad Al-Antary](https://scholar.google.co.uk/citations?user=ZWFq_B0AAAAJ&hl=en), [Moein Heidari](https://scholar.google.com/citations?user=mir8D5UAAAAJ&hl=en&oi=sra), and [Dorit Merhof
-](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "TransNorm: Transformer Provides a Strong Spatial Normalization Mechanism for a Deep Segmentation Model", download [link]().
+](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "TransNorm: Transformer Provides a Strong Spatial Normalization Mechanism for a Deep Segmentation Model", download [link](https://arxiv.org/abs/2207.13415).
 ---
 ## Updates
 - July 17, 2022: Initial release.
